@@ -29,7 +29,7 @@ draw(0, 0)
 for max_num in tqdm(range(200)):
     for sample in range(5):
         myList = randomList(max_num)
-        start = time()
+        start = time()                  
         for run in range(1000):
             selectionSort(myList)
         end = time()
